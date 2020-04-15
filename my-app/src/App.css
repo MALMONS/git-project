@@ -1,0 +1,29 @@
+.app-site {
+  margin: 0 auto;
+  width: 1200px;
+  display: grid;
+
+  grid-template-areas:
+          "h h"
+          "s c ";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.app-sitebar{
+ grid-area: s;
+  background-color: #e9daba;
+  font-size: 25px;
+}
+.app-header{
+ grid-area: h;
+  background-color: #e9a300;
+}
+.app-header img{
+  width: 60px;
+}
+
+.app-content{
+  grid-area: c;
+}
