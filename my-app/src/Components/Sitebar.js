@@ -1,23 +1,23 @@
 import React from 'react';
-
+import s from './ModulesCss/Sitebar.module.css';
 const Sitebar = () => {
     return (
-        <div className="app-sitebar">
+        <div className={s.appsitebar}>
            <nav>
-               <div>
+               <div className={s.item}>
                    Profile
                </div>
-               <div>
+               <div className={s.item}>
                    Messages
                </div>
-               <div>
+               <div className={s.item}>
                    Main Content
                </div>
            </nav>
         </div>
     );
 
-}
+};
 
 
 

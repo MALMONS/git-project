@@ -1,0 +1,9 @@
+.appsitebar{
+    grid-area: s;
+    background-color: #e9daba;
+    font-size: 25px;
+}
+
+.item{
+    color: #314549;
+}
